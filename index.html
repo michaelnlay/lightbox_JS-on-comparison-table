@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- Diamond Modal ========================================= -->
+    <div class="modal-container" id="modal-diamond">
+        <div class="modal-content">
+            <span class="xCSS" onclick="xClicked()">X</span>
+            <img src="./images/placard---diamond@2x.png" alt="diamond-img">
+        </div>
+    </div>
+
+    <!-- Platinum Modal======================================== -->
+    <div class="modal-container" id="modal-platinum">
+        <div class="modal-content">
+            <span class="xCSS" onclick="xClicked()">X</span>
+            <img src="./images/placard---platinum@2x_0.png" alt="platinum-img">
+        </div>
+    </div>
+
+    <table border="1" cellpadding="1" cellspacing="1">
+        <thead>
+            <tr>
+                <th scope="col">LISTING FEATURES</th>
+
+                <th scope="col"> <a class="modal-btn" id="btn-diamond" onclick="btnClickedDiamond();" >DIAMOND</a></th>
+                <!-- <th scope="col"> <button class="modal-btn" id="btn-diamond" onclick="btnClickedDiamond();" >DIAMOND</button></th> -->
+
+                <th scope="col"> <a class="modal-btn" id="btn-platinum" onclick="btnClickedPlatinum();" >PLATINUM</a></th>
+
+
+
+                <th scope="col">GOLD</th>
+                <th scope="col">SILVER</th>
+                <th scope="col">BASIC</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Exposure</td>
+                <td><strong>1,150x</strong></td>
+                <td><strong>300x</strong></td>
+                <td><strong>56x</strong></td>
+                <td><strong>12x</strong></td>
+                <td><strong>1x</strong></td>
+            </tr>
+            <tr>
+                <td>Placement in search results</td>
+                <td><strong>1st</strong></td>
+                <td><strong>2nd</strong></td>
+                <td><strong>3rd</strong></td>
+                <td><strong>4th</strong></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Property retargeting ads</td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Intelligent tenant and investor targeting ads</td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Branding on listing detail page</td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Broker logo on search results</td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Call tracking</td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Featured on CityFeet and Showcase</td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Exposure on newspaper partner sites</td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <h2 class="coh-style-gray-background">MEDIA PACKAGES</h2>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Professional photo shoot</td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>3D virtual tours</td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>HD video tours</td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Aerial drone photography</td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <h2 class="coh-style-gray-background">CUSTOM CONTENT</h2>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Custom curated content</td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Broker branding and bios</td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>About the owner description and owner brand presence</td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>About the architect description</td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Neighborhood description</td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Enhanced location information</td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Marketing brochure</td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td>link only</td>
+                <td>link only</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <h2 class="coh-style-gray-background">MARKETING TOOLS</h2>
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Flyer creation</td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Email marketing</td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td><span class="coh-style-check-mark">check</span></td>
+                <td>&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+
+<script src="./script.js"></script>
+</body>
+
+</html>
