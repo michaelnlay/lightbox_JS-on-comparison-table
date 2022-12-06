@@ -1,3 +1,5 @@
+![alt text](https://github.com/michaelnlay/Fun-with-Accordion/blob/main/Screen%20Shot%202022-11-22%20at%204.28.25%20PM.png?raw=true)
+
 # Lightbox functionality with focusing on JavaScript and light on CSS and HTML
 
 ## JavaScript Functionalities
