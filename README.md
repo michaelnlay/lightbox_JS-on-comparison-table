@@ -1,4 +1,4 @@
-![alt text](https://github.com/michaelnlay/Fun-with-Accordion/blob/main/Screen%20Shot%202022-11-22%20at%204.28.25%20PM.png?raw=true)
+![alt text](https://github.com/michaelnlay/lightbox_JS-on-comparison-table/blob/main/images/Screen%20Shot%202022-12-06%20at%203.14.23%20PM.png?raw=true)
 
 # Lightbox functionality with focusing on JavaScript and light on CSS and HTML
 
